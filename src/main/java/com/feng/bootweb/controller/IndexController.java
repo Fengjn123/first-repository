@@ -36,7 +36,7 @@ if(user1==null){
             session.setAttribute("loginUser",user);
         return "redirect:/main.html";}
         else {
-            System.out.println("f发你觉得风能发电");
+            System.out.println("f发你觉得风能d发电");
             request.setAttribute("msg","账号密码错误111");
             //回到登录页面
             return "login";
